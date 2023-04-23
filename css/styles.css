@@ -1,3 +1,22 @@
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+.section {
+
+}
+.list {
+
+}
+.link {text-decoration: none;
+
+}
+/**
+  |============================
+  | Header styles
+  |============================
+*/
 .header {
 }
 .header-nav {
@@ -12,3 +31,29 @@
 }
 .header-contact-item {
 }
+/**
+  |============================
+  | Abaut styles
+  |============================
+*/
+.abaut {
+}
+.section {
+}
+.abaut-list {
+}
+.abaut-item {
+}
+.abaut-title {
+}
+.abaut-subtitle {
+}
+.portfolio {
+}
+.portfolio-titl {
+}
+.portfolio-titl-list {
+}
+.portfolio-titl-item {
+}
+
