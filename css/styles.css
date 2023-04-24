@@ -17,43 +17,29 @@
   | Header styles
   |============================
 */
-.header {
+.page-header {
 }
-.header-nav {
+.page-header-nav {
 }
-.header-nav-link {
+.page-header-nav-link {
 }
-.header-nav-list {
+.link {
 }
-.header-nav-item {
+.page-header-nav-list {
 }
-.header-contact {
+.page-header-nav-item {
 }
-.header-contact-item {
+.page-header-contact {
 }
+.page-header-contact-list {
+}
+.page-header-contact-item {
+}
+
 /**
   |============================
   | Abaut styles
   |============================
 */
-.abaut {
-}
-.section {
-}
-.abaut-list {
-}
-.abaut-item {
-}
-.abaut-title {
-}
-.abaut-subtitle {
-}
-.portfolio {
-}
-.portfolio-titl {
-}
-.portfolio-titl-list {
-}
-.portfolio-titl-item {
-}
+
 
