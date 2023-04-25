@@ -4,42 +4,22 @@
   |============================
 */
 .section {
-
 }
 .list {
-
-}
-.link {text-decoration: none;
-
-}
-/**
-  |============================
-  | Header styles
-  |============================
-*/
-.page-header {
-}
-.page-header-nav {
-}
-.page-header-nav-link {
+  list-style: none;
 }
 .link {
-}
-.page-header-nav-list {
-}
-.page-header-nav-item {
-}
-.page-header-contact {
-}
-.page-header-contact-list {
-}
-.page-header-contact-item {
+  text-decoration: none;
 }
 
 /**
   |============================
-  | Abaut styles
+  | Footer styles
   |============================
 */
-
-
+.page-footer {
+}
+.page-footer-link {
+}
+.page-footer-text {
+}
