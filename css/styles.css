@@ -12,11 +12,15 @@
 	--color-white: #ffffff;
 	--color-dairy: #fcfcfc;
 }
+
 /**
   |============================
   | Base styles
   |============================
 */
+.body {
+	font-family: ;
+}
 .section {
 }
 .list {
@@ -25,36 +29,8 @@
 .link {
   text-decoration: none;
 }
-.text-style-header-1 {
-	font-size: 56px;
-	font-family: "Roboto";
-	font-weight: 700;
-	font-style: normal;
-	line-height: 60px;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	text-transform: none;
-}
-.text-style-header-2 {
-	font-size: 36px;
-	font-family: "Roboto";
-	font-weight: 700;
-	font-style: normal;
-	line-height: 40px;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	text-transform: capitalize;
-}
-.text-style-header-3 {
-	font-size: 20px;
-	font-family: "Roboto";
-	font-weight: 500;
-	font-style: normal;
-	line-height: 24px;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	text-transform: none;
-}
+
+
 .text-style-body {
 	font-size: 16px;
 	font-family: "Roboto";
@@ -65,7 +41,39 @@
 	text-decoration: none;
 	text-transform: none;
 }
-.text-style-body-medium {
+
+
+.main-title {
+	font-size: 56px;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 60px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: none;
+}
+.section-title {
+	font-size: 36px;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.subtitle {
+	font-size: 20px;
+	font-family: "Roboto";
+	font-weight: 500;
+	font-style: normal;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: none;
+}
+.desc {
 	font-size: 16px;
 	font-family: "Roboto";
 	font-weight: 500;
@@ -75,7 +83,7 @@
 	text-decoration: none;
 	text-transform: none;
 }
-.text-style-button-text {
+.button {
 	font-size: 16px;
 	font-family: "Roboto";
 	font-weight: 500;
@@ -85,7 +93,7 @@
 	text-decoration: none;
 	text-transform: none;
 }
-.text-style-small-text {
+.small-text {
 	font-size: 12px;
 	font-family: "Roboto";
 	font-weight: 400;
@@ -95,16 +103,7 @@
 	text-decoration: none;
 	text-transform: none;
 }
-.text-style-link-text {
-	font-size: 12px;
-	font-family: "Roboto";
-	font-weight: 400;
-	font-style: normal;
-	line-height: 16px;
-	letter-spacing: 0.04em;
-	text-decoration: underline;
-	text-transform: none;
-}
+
 /**
   |============================
   | Footer styles
