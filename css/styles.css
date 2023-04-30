@@ -29,11 +29,11 @@
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
-.header-contact{
-color: var(--color-slate);
+.header-contact {
+  color: var(--color-slate);
 }
 .header-contact:hover {
-color: var(--color-ocean);
+  color: var(--color-ocean);
 }
 /* reset start */
 .list {
@@ -118,7 +118,7 @@ color: var(--color-ocean);
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
- color:var(--color-navy-blue);
+  color: var(--color-navy-blue);
 }
 .desc {
   font-size: 16px;
@@ -131,11 +131,11 @@ color: var(--color-ocean);
   color: var(--color-ocean);
 }
 .p-text-slate {
-color: var(--color-slate);
+  color: var(--color-slate);
 }
 .p-text-cloud {
-color: var(--color-cloud);
-background-color: var(--color-navy-blue);
+  color: var(--color-cloud);
+  background-color: var(--color-navy-blue);
 }
 .small-text {
   font-size: 12px;
