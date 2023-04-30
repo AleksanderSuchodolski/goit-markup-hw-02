@@ -29,6 +29,12 @@
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
+.header-contact{
+color: var(--color-slate);
+}
+.header-contact:hover {
+color: var(--color-ocean);
+}
 /* reset start */
 .list {
   list-style: none;
@@ -39,14 +45,26 @@
 .logo-link {
   font-family: var(--secondary-font);
   font-size: 18px;
+  font-weight: 800;
   line-height: 1.17;
   color: var(--color-navy-blue);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-link-cloud {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  color: var(--color-cloud);
+  background-color: var(--color-navy-blue);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .web-logo {
   font-family: var(--secondary-font);
   font-size: 18px;
+  font-weight: 800;
   line-height: 1.17;
   color: var(--color-iris);
   letter-spacing: 0.03em;
@@ -55,8 +73,9 @@
 .btn {
   font-family: inherit;
   color: var(--color-white);
-  background: var(--color-iris);
+  background-color: var(--color-iris);
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -64,44 +83,42 @@
 .btn-cloud {
   font-family: inherit;
   color: var(--color-iris);
-  background: var(--color-cloud);
+  background-color: var(--color-cloud);
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
 .btn:hover {
-  background: var(--color-ocean);
+  background-color: var(--color-ocean);
 }
 .btn-cloud:hover {
-  background: var(--color-cornflower);
+  background-color: var(--color-cornflower);
 }
 .title {
   font-size: 56px;
+  font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  background-color: var(--color-navy-blue-modal);
+  background-color: var(--color-navy-blue);
+  text-transform: capitalize;
 }
 .section-title {
   font-size: 36px;
-  font-family: "Roboto";
   font-weight: 700;
-  font-style: normal;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
-  text-decoration: none;
+  color: var(--color-navy-blue);
   text-transform: capitalize;
 }
 .subtitle {
   font-size: 20px;
-  font-family: "Roboto";
   font-weight: 500;
-  font-style: normal;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: none;
+ color:var(--color-navy-blue);
 }
 .desc {
   font-size: 16px;
@@ -112,6 +129,13 @@
 }
 .desc:hover {
   color: var(--color-ocean);
+}
+.p-text-slate {
+color: var(--color-slate);
+}
+.p-text-cloud {
+color: var(--color-cloud);
+background-color: var(--color-navy-blue);
 }
 .small-text {
   font-size: 12px;
