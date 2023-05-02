@@ -27,12 +27,15 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-navy-blue);
+  color: var(--color-slate);
+  background-color: var(--color-white);
 }
 .header-contact {
+  font-style: normal;
   color: var(--color-slate);
 }
-.header-contact:hover {
+.header-contact:hover,
+.header-contact:focus {
   color: var(--color-ocean);
 }
 /* reset start */
@@ -47,28 +50,15 @@
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
-  color: var(--color-navy-blue);
+  color: var(--color-iris);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo-link-cloud {
-  font-family: var(--secondary-font);
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
   color: var(--color-cloud);
-  background-color: var(--color-navy-blue);
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
-.web-logo {
-  font-family: var(--secondary-font);
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  color: var(--color-iris);
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.logo-link-blue {
+  color: var(--color-navy-blue);
 }
 .btn {
   font-family: inherit;
@@ -127,7 +117,8 @@
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
-.desc:hover {
+.desc:hover,
+.desc:focus {
   color: var(--color-ocean);
 }
 .p-text-slate {
@@ -153,3 +144,6 @@
   | Footer styles
   |============================
 */
+.footer {
+  background-color: var(--color-navy-blue);
+}
