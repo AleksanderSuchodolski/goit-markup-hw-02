@@ -80,19 +80,22 @@
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.btn:hover {
+.btn:hover,
+.btn:focus {
   background-color: var(--color-ocean);
 }
-.btn-cloud:hover {
-  background-color: var(--color-cornflower);
+.btn-cloud:hover,
+.btn-cloud:focus {
+  background-color: var(--color-ocean);
+  color: var(--color-white);
 }
 .title {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #ffffff;
-  background-color: var(--color-navy-blue);
+  text-align: center;
+  color: var(--color-white);
   text-transform: capitalize;
 }
 .section-title {
@@ -100,6 +103,7 @@
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--color-navy-blue);
   text-transform: capitalize;
 }
@@ -139,6 +143,25 @@
   text-transform: none;
 }
 
+/**
+  |============================
+  | Hero styles
+  |============================
+*/
+.hero-section {
+  background-color: var(--color-navy-blue);
+}
+/**
+  |============================
+  | Team styles
+  |============================
+*/
+.team-section {
+  background-color: var(--color-cloud);
+}
+.team-title-list {
+  background-color: var(--color-white);
+}
 /**
   |============================
   | Footer styles
